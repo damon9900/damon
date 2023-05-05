@@ -38,9 +38,6 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get update 
 sudo apt-get upgrade -y
 }
-if [ "$1" = "install" ]; then
-install
-fi
 installall
 cd ..
 rm -rf luarocks*
