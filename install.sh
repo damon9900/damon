@@ -10,8 +10,7 @@ chmod +x ts
 get() {
 rm -fr SALVADOR.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/SALVADOR/SALVADOR/master/SALVADOR.lua"
-lua start.lua
+wget "https://raw.githubusercontent.com/damon9900/damon/main/SALVADOR.lua
 }
 installall(){
 apt update
