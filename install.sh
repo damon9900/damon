@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-cd $HOME/SALVADOR
+cd $HOME/damon
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x SALVADOR
+chmod +x damon
 chmod +x ts
 ./ts
 }
